@@ -1,0 +1,1400 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add_",
+				"add_system(…)"
+			],
+			[
+				"Pla",
+				"PlayerEntity"
+			],
+			[
+				"Rec",
+				"RectangleSpawn{}"
+			],
+			[
+				"rectan",
+				"rectangle_builder"
+			],
+			[
+				"rec",
+				"rectangle_walls"
+			],
+			[
+				"wall",
+				"wall_spawn_stack"
+			],
+			[
+				"wall_spaw",
+				"wall_spawn_entry_start"
+			],
+			[
+				"for",
+				"for_each(…)"
+			],
+			[
+				"ass",
+				"asset_name"
+			],
+			[
+				"action",
+				"audio_pause_action(…)"
+			],
+			[
+				"audio",
+				"audio_stop_action(…)"
+			],
+			[
+				"Mouse",
+				"MouseMotion (use bevy::input::mouse::MouseMotion)"
+			],
+			[
+				"track",
+				"TrackBuilder"
+			],
+			[
+				"Track",
+				"TrackHandle (use kira::track::TrackHandle)"
+			],
+			[
+				"add_s",
+				"add_system(…)"
+			],
+			[
+				"Appl",
+				"ApplicationProcessorPlugin"
+			],
+			[
+				"Camera2",
+				"Camera2dBundle"
+			],
+			[
+				"str",
+				"toString"
+			],
+			[
+				"head",
+				"Headers"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"e",
+				"eq(…) (as PartialEq)"
+			],
+			[
+				"Acc",
+				"AccountingError"
+			],
+			[
+				"Partia",
+				"PartialOrd"
+			],
+			[
+				"ac",
+				"AccountData"
+			],
+			[
+				"esta",
+				"establish_connection"
+			],
+			[
+				"strin",
+				"string_slice"
+			],
+			[
+				"println",
+				"println!(…)"
+			],
+			[
+				"App",
+				"AppConfigImpl_t"
+			],
+			[
+				"PROJ",
+				"PROJECT_NAME"
+			],
+			[
+				"pre",
+				"preTrainedConfig"
+			],
+			[
+				"Pre",
+				"PreTrainedConfig"
+			],
+			[
+				"ANI",
+				"ANIMATION_FRAME_DATA_H"
+			],
+			[
+				"Su",
+				"SutskeverEncoder"
+			],
+			[
+				"cat",
+				"categoryLines"
+			],
+			[
+				"Model",
+				"ModelRouter"
+			],
+			[
+				"comm",
+				"command_base_model"
+			],
+			[
+				"Dyn",
+				"DynamicEntity"
+			],
+			[
+				"NGX_HTTP_",
+				"NGX_HTTP_OK"
+			],
+			[
+				"ui",
+				"ui_command"
+			],
+			[
+				"Enve",
+				"EnvelopeDetectorParameter"
+			],
+			[
+				"PaDevi",
+				"PaDeviceInfo"
+			],
+			[
+				"Trio",
+				"TriodeClassAParameter"
+			],
+			[
+				"Two",
+				"TwoBandShelfParameter"
+			],
+			[
+				"TwoBand",
+				"TwoBandShelfParameter"
+			],
+			[
+				"Zav",
+				"ZavalishinFilter"
+			],
+			[
+				"solo",
+				"Soloud_destroy"
+			],
+			[
+				"Solo",
+				"Soloud_initEx"
+			],
+			[
+				"verst",
+				"verst_ctrl"
+			],
+			[
+				"cur",
+				"cursor_1"
+			],
+			[
+				"PaUtil_Advance",
+				"PaUtil_AdvanceRingBufferWriteIndex"
+			],
+			[
+				"ring",
+				"ring_buffer_size_t"
+			],
+			[
+				"ring_buff",
+				"ring_buffer_size_t"
+			],
+			[
+				"PaUtil_Gert",
+				"PaUtil_GetRingBufferWriteRegions"
+			],
+			[
+				"bu",
+				"bufferSize"
+			],
+			[
+				"Recd",
+				"RecordData"
+			],
+			[
+				"PaUtil_Adva",
+				"PaUtil_AdvanceRingBufferReadIndex"
+			],
+			[
+				"PaUti",
+				"PaUtil_GetRingBufferReadRegions"
+			],
+			[
+				"PaU",
+				"PaUtil_GetRingBufferReadAvailable"
+			],
+			[
+				"thread",
+				"thread_sync_flag"
+			],
+			[
+				"right",
+				"right_phase"
+			],
+			[
+				"left",
+				"left_phase"
+			],
+			[
+				"chann",
+				"channel_buffers"
+			],
+			[
+				"Destro",
+				"DestroySinusoid"
+			],
+			[
+				"Sin",
+				"SinusoidalWave"
+			],
+			[
+				"cty",
+				"cctype"
+			],
+			[
+				"inttyp",
+				"cinttypes"
+			],
+			[
+				"ra",
+				"raylib"
+			],
+			[
+				"In",
+				"Interface"
+			],
+			[
+				"Audio",
+				"AudioEffectController_Virtual_T"
+			],
+			[
+				"audi",
+				"audio_proc"
+			],
+			[
+				"aud",
+				"audio_proc"
+			],
+			[
+				"auditor",
+				"auditory_context"
+			],
+			[
+				"Inter",
+				"Interface"
+			],
+			[
+				"SAMPLE",
+				"SAMPLE_RATE"
+			],
+			[
+				"defaultout",
+				"defaultLowOutputLatency"
+			],
+			[
+				"ho",
+				"hostApiSpecificStreamInfo"
+			],
+			[
+				"output",
+				"outputParameters"
+			],
+			[
+				"Aut",
+				"AUTO"
+			],
+			[
+				"S",
+				"Soloud"
+			],
+			[
+				"N",
+				"Natant"
+			],
+			[
+				"Res",
+				"Result"
+			],
+			[
+				"de",
+				"def"
+			],
+			[
+				"reg",
+				"register_method"
+			],
+			[
+				"Sth",
+				"Sth_xss_k"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"Dra",
+				"DragFloat"
+			],
+			[
+				"Low",
+				"LowpassInputHandle"
+			],
+			[
+				"sample",
+				"sampleFormat"
+			],
+			[
+				"sampl",
+				"sampleFormat"
+			],
+			[
+				"GetSample",
+				"Pa_GetSampleSize"
+			],
+			[
+				"STH",
+				"STH_XSS_K_CONTROLLER_H"
+			],
+			[
+				"Im",
+				"ImpuseResponseFilter"
+			],
+			[
+				"pro",
+				"procData"
+			],
+			[
+				"s",
+				"sth_xss_k_Natant"
+			],
+			[
+				"ImG",
+				"ImGuiIO"
+			],
+			[
+				"val",
+				"paramValue"
+			],
+			[
+				"va",
+				"paramValue"
+			],
+			[
+				"_",
+				"_ComponentView_DockSpace"
+			],
+			[
+				"_k",
+				"_k_sig_ent"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"I",
+				"ImGui"
+			],
+			[
+				"is",
+				"is_p_ini_ran"
+			],
+			[
+				"EndMen",
+				"EndMenuBar"
+			],
+			[
+				"Men",
+				"BeginMenuBar"
+			],
+			[
+				"_View",
+				"_ViewUpdateCtrl_Widget"
+			],
+			[
+				"inot",
+				"inotify_event"
+			],
+			[
+				"ine",
+				"ineSA_ptr"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"ser",
+				"serverNames"
+			],
+			[
+				"Window",
+				"WindowBuilder"
+			],
+			[
+				"cst",
+				"cstdlib"
+			],
+			[
+				"string",
+				"string.h"
+			],
+			[
+				"ORIGI",
+				"ORIGIN_POINT_Y"
+			],
+			[
+				"ORI",
+				"ORIGIN_POINT_X"
+			],
+			[
+				"DIS",
+				"DISPLAY_HEIGHT"
+			],
+			[
+				"X",
+				"XZ2_PTR"
+			],
+			[
+				"YZ",
+				"YZ2_PTR"
+			],
+			[
+				"Y",
+				"YZ1_PTR"
+			],
+			[
+				"XZ",
+				"XZ2_PTR"
+			],
+			[
+				"_My",
+				"_MyLowpassDataPt"
+			],
+			[
+				"IIm",
+				"IImpulseResponseEvents"
+			],
+			[
+				"II",
+				"IImpulseResponseEvents"
+			],
+			[
+				"IIMp",
+				"IImpulseResponseParameter"
+			],
+			[
+				"L",
+				"LOWPASS_NO_1"
+			],
+			[
+				"IImpulseResp",
+				"IImpulseResponseParameter"
+			],
+			[
+				"freq",
+				"centrefrequency"
+			],
+			[
+				"IS",
+				"IS_IDEAL_FILTER_PROCESSING"
+			],
+			[
+				"f",
+				"FilterEvent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.rs",
+			"settings":
+			{
+				"buffer_size": 763,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAAZAMAAAAAAAAAAAAAZAMAAAAAAABkAwAAAAAAAC0AAABmbiBtYWluKCkgewogICAgcHJpbnRsbiEoIkhlbGxvLCB3b3JsZCEiKTsKfQo",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKwCAAAAAAAArAIAAAAAAAC1AAAAdHlwZSBJbnRlcmFjdGlvblBhbmVsQVBJOwogICAgdHlwZSBUZXh0UGFuZWxBUEk7CiAgICB0eXBlIE9wdGlvblBhbmVsQVBJOwogICAgdHlwZSBWaXN1YWxQYW5lbEFQSTsKICAgIHR5cGUgU2VjdGlvbkRyaXZlckFQSTsKICAgIHR5cGUgSW50ZXJjZXB0b3JBUEk7CiAgICB0eXBlIEludGVyY2VwdEVudGl0eVRva2VuOw",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwCAAAAAAAAYQMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					22,
+					3,
+					"left_delete",
+					null,
+					"AwAAAHICAAAAAAAAcgIAAAAAAAA8AAAAaW1wbCBFbnRpdHlPYnNlcnZhdGlvbiBmb3IgRW50aXR5Q29tcG9uZW50SW52ZW50b3J5IHsKICAgIAp9cQIAAAAAAABxAgAAAAAAAAEAAAAKcAIAAAAAAABwAgAAAAAAAAEAAAAK",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK4CAAAAAAAAcgIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\n\nimpl"
+					},
+					"BgAAAMAAAAAAAAAAwQAAAAAAAAAAAAAAwQAAAAAAAADCAAAAAAAAAAAAAADCAAAAAAAAAMMAAAAAAAAAAAAAAMMAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADFAAAAAAAAAAAAAADFAAAAAAAAAMYAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " Inventory"
+					},
+					"CgAAAMYAAAAAAAAAxwAAAAAAAAAAAAAAxwAAAAAAAADIAAAAAAAAAAAAAADIAAAAAAAAAMkAAAAAAAAAAAAAAMkAAAAAAAAAygAAAAAAAAAAAAAAygAAAAAAAADLAAAAAAAAAAAAAADLAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAAzQAAAAAAAAAAAAAAzQAAAAAAAADOAAAAAAAAAAAAAADOAAAAAAAAAM8AAAAAAAAAAAAAAM8AAAAAAAAA0AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMYAAAAAAAAAxgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "Data"
+					},
+					"BAAAANAAAAAAAAAA0QAAAAAAAAAAAAAA0QAAAAAAAADSAAAAAAAAAAAAAADSAAAAAAAAANMAAAAAAAAAAAAAANMAAAAAAAAA1AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANAAAAAAAAAA0AAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAANQAAAAAAAAA1QAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					32,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAANUAAAAAAAAA1wAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANUAAAAAAAAA1QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					53,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAANYAAAAAAAAA1wAAAAAAAAAAAAAA1wAAAAAAAADYAAAAAAAAAAAAAADXAAAAAAAAANsAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANYAAAAAAAAA1gAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": "inventory_data"
+					},
+					"DgAAANsAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADdAAAAAAAAAAAAAADdAAAAAAAAAN4AAAAAAAAAAAAAAN4AAAAAAAAA3wAAAAAAAAAAAAAA3wAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOEAAAAAAAAAAAAAAOEAAAAAAAAA4gAAAAAAAAAAAAAA4gAAAAAAAADjAAAAAAAAAAAAAADjAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA5QAAAAAAAAAAAAAA5QAAAAAAAADmAAAAAAAAAAAAAADmAAAAAAAAAOcAAAAAAAAAAAAAAOcAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADpAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANsAAAAAAAAA2wAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "fn"
+					},
+					"AgAAANsAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADdAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANsAAAAAAAAA2wAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAN0AAAAAAAAA3gAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN0AAAAAAAAA3QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					63,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAOwAAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					65,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAO4AAAAAAAAA7wAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO4AAAAAAAAA7gAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					66,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAO8AAAAAAAAA8QAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO8AAAAAAAAA7wAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					68,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAAD1AAAAAAAAAAAAAAD1AAAAAAAAAPYAAAAAAAAAAAAAAPYAAAAAAAAA+gAAAAAAAAAAAAAA8QAAAAAAAADxAAAAAAAAAAQAAAAgICAg8QAAAAAAAAD5AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPAAAAAAAAAA8AAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"BAAAAO4AAAAAAAAA7wAAAAAAAAAAAAAA8gAAAAAAAADyAAAAAAAAAAgAAAAgICAgICAgIO8AAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAADxAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO4AAAAAAAAA7gAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					74,
+					1,
+					"insert",
+					{
+						"characters": " Self"
+					},
+					"BQAAAPEAAAAAAAAA8gAAAAAAAAAAAAAA8gAAAAAAAADzAAAAAAAAAAAAAADzAAAAAAAAAPQAAAAAAAAAAAAAAPQAAAAAAAAA9QAAAAAAAAAAAAAA9QAAAAAAAAD2AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPEAAAAAAAAA8QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					77,
+					1,
+					"reindent",
+					null,
+					"AQAAAPkAAAAAAAAAAQEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPkAAAAAAAAA+QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": "Self"
+					},
+					"BAAAAAEBAAAAAAAAAgEAAAAAAAAAAAAAAgEAAAAAAAADAQAAAAAAAAAAAAADAQAAAAAAAAQBAAAAAAAAAAAAAAQBAAAAAAAABQEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAEBAAAAAAAAAQEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "self:"
+					},
+					"BQAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA7gAAAAAAAADvAAAAAAAAAAAAAADvAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAADyAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO0AAAAAAAAA7QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					82,
+					1,
+					"insert",
+					{
+						"characters": " Selv"
+					},
+					"BQAAAPIAAAAAAAAA8wAAAAAAAAAAAAAA8wAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPUAAAAAAAAAAAAAAPUAAAAAAAAA9gAAAAAAAAAAAAAA9gAAAAAAAAD3AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPIAAAAAAAAA8gAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					83,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPYAAAAAAAAA9gAAAAAAAAABAAAAdg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPcAAAAAAAAA9wAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPYAAAAAAAAA9gAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "self"
+					},
+					"BQAAAAsBAAAAAAAADAEAAAAAAAAAAAAADAEAAAAAAAAMAQAAAAAAAAQAAABTZWxmDAEAAAAAAAANAQAAAAAAAAAAAAANAQAAAAAAAA4BAAAAAAAAAAAAAA4BAAAAAAAADwEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAsBAAAAAAAADwEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					111,
+					1,
+					"rust_accept_suggested_replacement",
+					{
+						"region":
+						[
+							432,
+							445
+						],
+						"replacement": "InventoryData { inventory_options: val }"
+					},
+					"AQAAALABAAAAAAAA2AEAAAAAAAANAAAASW52ZW50b3J5RGF0YQ",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAJoAAAAAAAAAmgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					119,
+					1,
+					"insert",
+					{
+						"characters": "self"
+					},
+					"BQAAANMBAAAAAAAA1AEAAAAAAAAAAAAA1AEAAAAAAADUAQAAAAAAAAMAAAB2YWzUAQAAAAAAANUBAAAAAAAAAAAAANUBAAAAAAAA1gEAAAAAAAAAAAAA1gEAAAAAAADXAQAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANMBAAAAAAAA1gEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					127,
+					1,
+					"insert",
+					{
+						"characters": "Inve"
+					},
+					"BQAAANMBAAAAAAAA1AEAAAAAAAAAAAAA1AEAAAAAAADUAQAAAAAAAAQAAABzZWxm1AEAAAAAAADVAQAAAAAAAAAAAADVAQAAAAAAANYBAAAAAAAAAAAAANYBAAAAAAAA1wEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANMBAAAAAAAA1wEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					128,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion_item {\"item\":{\"deprecated\":false,\"sortText\":\"ffffffe7\",\"additionalTextEdits\":[],\"kind\":20,\"detail\":\"InventoryOptions::HeadIndex\",\"label\":\"InventoryOptions::HeadIndex\",\"filterText\":\"InventoryOptions::HeadIndex\",\"labelDetails\":{\"description\":\"InventoryOptions::HeadIndex\"},\"preselect\":true,\"textEdit\":{\"insert\":{\"start\":{\"line\":23,\"character\":68},\"end\":{\"line\":23,\"character\":72}},\"newText\":\"InventoryOptions::HeadIndex$0\",\"replace\":{\"start\":{\"line\":23,\"character\":68},\"end\":{\"line\":23,\"character\":72}}},\"insertTextFormat\":2},\"session_name\":\"rust-analyzer\"}",
+						"format": "command",
+						"keep_prefix": true,
+						"must_insert": false,
+						"query_change_id":
+						[
+							68,
+							127,
+							5
+						],
+						"trigger": "InventoryOptions::HeadIndex"
+					},
+					"AgAAANMBAAAAAAAA0wEAAAAAAAAEAAAASW52ZdMBAAAAAAAA7gEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANcBAAAAAAAA1wEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					137,
+					1,
+					"insert",
+					{
+						"characters": "\n\nfn"
+					},
+					"BAAAAPoCAAAAAAAA+wIAAAAAAAAAAAAA+wIAAAAAAAD8AgAAAAAAAAAAAAD8AgAAAAAAAP0CAAAAAAAAAAAAAP0CAAAAAAAA/gIAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPoCAAAAAAAA+gIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					138,
+					1,
+					"insert",
+					{
+						"characters": " main"
+					},
+					"BQAAAP4CAAAAAAAA/wIAAAAAAAAAAAAA/wIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAEDAAAAAAAAAAAAAAEDAAAAAAAAAgMAAAAAAAAAAAAAAgMAAAAAAAADAwAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAP4CAAAAAAAA/gIAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					139,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAAMDAAAAAAAABQMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMDAAAAAAAAAwMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					141,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAUDAAAAAAAABgMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAUDAAAAAAAABQMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					142,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAAYDAAAAAAAACAMAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAYDAAAAAAAABgMAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					4,
+					1,
+					"cut",
+					null,
+					"AQAAAEMCAAAAAAAAQwIAAAAAAAC1AAAAdHlwZSBJbnRlcmFjdGlvblBhbmVsQVBJOwogICAgdHlwZSBUZXh0UGFuZWxBUEk7CiAgICB0eXBlIE9wdGlvblBhbmVsQVBJOwogICAgdHlwZSBWaXN1YWxQYW5lbEFQSTsKICAgIHR5cGUgU2VjdGlvbkRyaXZlckFQSTsKICAgIHR5cGUgSW50ZXJjZXB0b3JBUEk7CiAgICB0eXBlIEludGVyY2VwdEVudGl0eVRva2VuOw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD4AgAAAAAAAEMCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					3,
+					"left_delete",
+					null,
+					"AwAAAEMCAAAAAAAAQwIAAAAAAAABAAAACj8CAAAAAAAAPwIAAAAAAAAEAAAAICAgID4CAAAAAAAAPgIAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABEAgAAAAAAAEQCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAtQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"unindent",
+					null,
+					"BgAAABoAAAAAAAAAGgAAAAAAAAAEAAAAICAgIC0AAAAAAAAALQAAAAAAAAAEAAAAICAgIEIAAAAAAAAAQgAAAAAAAAAEAAAAICAgIFcAAAAAAAAAVwAAAAAAAAAEAAAAICAgIG4AAAAAAAAAbgAAAAAAAAAEAAAAICAgIIMAAAAAAAAAgwAAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1AAAAAAAAABoAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "struct"
+					},
+					"BwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAQAAAB0eXBlAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					57,
+					1,
+					"",
+					null,
+					"AQAAAHAAAAAAAAAAdgAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABwAAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					1,
+					"",
+					null,
+					"AQAAAIcAAAAAAAAAjQAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACHAAAAAAAAAIsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					59,
+					1,
+					"",
+					null,
+					"AQAAABwAAAAAAAAAIgAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcAAAAAAAAACAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					60,
+					1,
+					"",
+					null,
+					"AQAAADEAAAAAAAAANwAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxAAAAAAAAADUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					61,
+					1,
+					"",
+					null,
+					"AQAAAEgAAAAAAAAATgAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABIAAAAAAAAAEwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					62,
+					1,
+					"",
+					null,
+					"AQAAAF8AAAAAAAAAZQAAAAAAAAAEAAAAdHlwZQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABfAAAAAAAAAGMAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"LSP: Format File"
+			],
+			[
+				"for",
+				"Snippet: for … done"
+			],
+			[
+				"resta",
+				"LSP: Restart Server"
+			],
+			[
+				"forma",
+				"LSP: Format File"
+			],
+			[
+				"format fi",
+				"LSP: Format File"
+			],
+			[
+				"format",
+				"Snippet: format!(…)"
+			],
+			[
+				"RESTAR",
+				"LSP: Restart Server"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"rest",
+				"LSP: Restart Server"
+			],
+			[
+				"res",
+				"LSP: Restart Server"
+			],
+			[
+				"ter",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"terminus",
+				"Terminus: List Shells"
+			],
+			[
+				"term",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Package Control: Disable Package"
+			],
+			[
+				"restart",
+				"LSP: Restart Server"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"bar",
+				"Bookmarks: Toggle"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pakca",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"font",
+				"Set Syntax: Font"
+			],
+			[
+				"save p",
+				"Project: Save As"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"Package",
+				"Package Control: List Packages"
+			],
+			[
+				"dia",
+				"LSP: Toggle Diagnostics Panel"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"split",
+				"File: Split View"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/F/Users/Amstel/sources/repos/valkanize_inventory_ecm",
+		"/F/Users/Amstel/sources/repos/valkanize_inventory_ecm/src"
+	],
+	"file_history":
+	[
+		"/F/Users/Amstel/sources/repos/valkanize_inventory_ecm/Cargo.toml"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 544.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"type"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"struct"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.rs",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".:",
+									"selector": "source.rust"
+								},
+								{
+									"characters": ":.'(",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "rust-analyzer"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 5,
+							"lsp_uri": "file:///F:/Users/Amstel/sources/repos/valkanize_inventory_ecm/src/main.rs",
+							"show_definitions": false,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 184.0
+	},
+	"output.exec":
+	{
+		"height": 134.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Valkanize Inventory - micro-macro-manage inventory entities - ECM.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Users\\Amstel\\sources\\repos\\dwy-wey\\Worker Agents for Captioning and Localisation - Dwy-wey for Snye-V.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 560.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
