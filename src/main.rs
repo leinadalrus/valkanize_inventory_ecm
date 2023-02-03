@@ -3,12 +3,26 @@ use bevy_egui::{egui, EguiContext, EguiPlugin};
 use bevy_kira_audio::prelude::*;
 use std::time::Duration;
 
-struct InteractionPanelAPI;
-struct TextPanelAPI;
-struct OptionPanelAPI;
-struct VisualPanelAPI;
-struct SectionDriverAPI;
-struct InterceptorAPI;
+struct NameHandle {
+    name_handle: Handle<String>,
+}
+
+struct VisualHandle {
+    visual_handle: Handle<Image>,
+}
+
+struct OptionHandle {
+    option_handle: Option,
+}
+
+struct DialogHandler {
+    name: NameHandle,
+    visual: VisualHandle,
+    option: OptionHandle,
+} // ,,Handler'' is different from ,,handle''
+
+struct SectionDriver;
+struct InterceptEntity;
 struct InterceptEntityToken;
 
 pub enum InventoryOptions {
