@@ -15,6 +15,14 @@ struct DialogHandler {
     option: OptionHandle,
 } // ,,Handler'' is different from ,,handle''
 
+#[derive(Default, Resource)]
+struct DialogState {
+    label: String,
+    value: String,
+    texture_handle: Option<egui::TextureHandle>,
+    is_window_open: bool,
+}
+
 struct SectionDriver;
 struct InterceptEntity;
 struct InterceptEntityToken;
@@ -59,10 +67,57 @@ impl FromWorld for DialogHandler {
     }
 }
 
+fn start_system_setup_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
+    commands.spawn(Camera2dBundle::default());
+    let font_handle = asset_server.load("fonts/FiraSans-Bold.ttf");
+    
+    commands
+        .spawn(NodeBundle {
+            style: Style {
+                size: Size::new(Val::Percent(50.0), Val::Percent(100.0)),
+                align_items: AlignItems::Center,
+                justify_content: JustifyContent::Center,
+                ..default()
+            },
+            ..default()
+        })
+}
+
 fn contextualize_world_ui(mut egui_context: ResMut<EguiContext>) {
     egui::Window::new("Hello").show(egui_context.ctx_mut(), |ui| {
         ui.label("world");
     });
+}
+
+fn configure_visuals_system(mut egui_ctx: ResMut<EguiContext>) {
+    egui_ctx.ctx_mut().set_visuals(egui::Visuals {
+        window_rounding: 0.0.into(),
+        ..Default::default()
+    });
+}
+
+fn configure_ui_state_system(mut ui_state: ResMut<UiState>) {
+    ui_state.is_window_open = true;
+}
+
+fn update_ui_scale_factor_system(
+    keyboard_input: Res<Input<KeyCode>>,
+    mut toggle_scale_factor: Local<Option<bool>>,
+    mut egui_settings: ResMut<EguiSettings>,
+    windows: Res<Windows>,
+) {
+    if keyboard_input.just_pressed(KeyCode::Slash) || toggle_scale_factor.is_none() {
+        *toggle_scale_factor = Some(!toggle_scale_factor.unwrap_or(true));
+
+        if let Some(window) = windows.get_primary() {
+            let scale_factor = if toggle_scale_factor.unwrap() {
+                1.0
+            } else {
+                1.0 / window.scale_factor()
+            };
+            egui_settings.scale_factor = scale_factor;
+        }
+    }
 }
 
 fn serve_asset_resource_audio(asset_server: Res<AssetServer>, audio: Res<Audio>) {
@@ -84,12 +139,19 @@ fn serve_asset_resource_audio(asset_server: Res<AssetServer>, audio: Res<Audio>)
 
 fn main() {
     App::new()
+        .insert_resource(ClearColor(Color::rgb(0.0, 0.0, 0.0)))
+        .insert_resource(Msaa { samples: 4 })
+        .init_resource::<DialogState>()
         .add_plugins(DefaultPlugins)
         .add_plugin(EguiPlugin)
         .add_plugin(AudioPlugin)
         // Systems that create Egui widgets should be run during the `CoreStage::Update` stage,
         // or after the `EguiSystem::BeginFrame` system (which belongs to the `CoreStage::PreUpdate` stage).
+        .add_startup_system(start_system_setup_ui)
         .add_system(contextualize_world_ui)
+        .add_system(configure_visuals_system)
+        .add_system(configure_ui_state_system)
+        .add_system(update_ui_scale_factor_system)
         .add_system(serve_asset_resource_audio)
         .run();
 }
