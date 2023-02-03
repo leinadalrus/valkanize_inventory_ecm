@@ -3,17 +3,11 @@ use bevy_egui::{egui, EguiContext, EguiPlugin};
 use bevy_kira_audio::prelude::*;
 use std::time::Duration;
 
-struct NameHandle {
-    name_handle: Handle<String>,
-}
+struct NameHandle(pub Handle<String>);
 
-struct VisualHandle {
-    visual_handle: Handle<Image>,
-}
+struct VisualHandle(pub Handle<Image>);
 
-struct OptionHandle {
-    option_handle: Option,
-}
+struct OptionHandle(pub Option);
 
 struct DialogHandler {
     name: NameHandle,
@@ -54,8 +48,16 @@ impl EntityComponentInventory {
     }
 }
 
-/// An observer used to monitor bevy_egui
-trait EntityObservation {}
+impl FromWorld for DialogHandler {
+    fn from_world(world: &mut World) -> Self {
+        let asset_server = world.get_resource_mut::<AssetServer>().unwrap();
+        Self {
+            NameHandle(asset_server.load("dialog/handles/named_resources_data.json")),
+            VisualHandle(asset_server.load("images/icons/user_icon.png")),
+            None,
+        }
+    }
+}
 
 fn contextualize_world_ui(mut egui_context: ResMut<EguiContext>) {
     egui::Window::new("Hello").show(egui_context.ctx_mut(), |ui| {
