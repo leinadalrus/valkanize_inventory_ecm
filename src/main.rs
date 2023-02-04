@@ -69,7 +69,7 @@ impl FromWorld for DialogHandler {
 
 fn start_system_setup_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(Camera2dBundle::default());
-    let font_handle = asset_server.load("fonts/FiraSans-Bold.ttf");
+    let font_handle = asset_server.load("fonts/FiraSans-Retina.ttf");
     
     commands
         .spawn(NodeBundle {
