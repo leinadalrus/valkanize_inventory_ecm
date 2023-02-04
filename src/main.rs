@@ -2,9 +2,10 @@ use bevy::{prelude::*, reflect::TypeUuid};
 use bevy_egui::{egui, EguiContext, EguiPlugin, EguiSettings};
 use bevy_kira_audio::prelude::*;
 use std::time::Duration;
+use uuid::uuid;
 
 #[derive(TypeUuid)]
-#[uuid = "71402ca5-adec-436a-ba16-6980791e7c7d"]
+#[uuid = "67e55044-10b1-426f-9247-bb680e5fe0c8"]
 struct UntypedIdentifier(pub String);
 
 struct NameHandle(pub Handle<UntypedIdentifier>);
