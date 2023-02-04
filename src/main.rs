@@ -1,13 +1,17 @@
-use bevy::prelude::*;
-use bevy_egui::{egui, EguiContext, EguiPlugin};
+use bevy::{prelude::*, reflect::TypeUuid};
+use bevy_egui::{egui, EguiContext, EguiPlugin, EguiSettings};
 use bevy_kira_audio::prelude::*;
 use std::time::Duration;
 
-struct NameHandle(pub Handle<String>);
+#[derive(TypeUuid)]
+#[uuid = "71402ca5-adec-436a-ba16-6980791e7c7d"]
+struct UntypedIdentifier(pub String);
+
+struct NameHandle(pub Handle<UntypedIdentifier>);
 
 struct VisualHandle(pub Handle<Image>);
 
-struct OptionHandle(pub Option);
+struct OptionHandle(pub Option<String>);
 
 struct DialogHandler {
     name: NameHandle,
@@ -36,7 +40,9 @@ pub enum InventoryOptions {
     BackIndex,
 }
 
+#[derive(Resource)]
 pub struct InventoryData {
+    id: String,
     inventory_options: InventoryOptions,
 }
 
@@ -51,6 +57,7 @@ pub struct EntityComponentInventory(InventoryData);
 impl EntityComponentInventory {
     fn new(self: Self) -> Self {
         EntityComponentInventory(InventoryData {
+            id: String::from("dialog/handles/named_resources_data.json"),
             inventory_options: InventoryOptions::HeadIndex,
         })
     }
@@ -59,28 +66,30 @@ impl EntityComponentInventory {
 impl FromWorld for DialogHandler {
     fn from_world(world: &mut World) -> Self {
         let asset_server = world.get_resource_mut::<AssetServer>().unwrap();
+        let name = NameHandle(asset_server.load("dialog/handles/named_resources_data.json"));
+        let visual = VisualHandle(asset_server.load("images/icons/user_icon.png"));
+        let option = OptionHandle(None);
         Self {
-            NameHandle(asset_server.load("dialog/handles/named_resources_data.json")),
-            VisualHandle(asset_server.load("images/icons/user_icon.png")),
-            None,
+            name,
+            visual,
+            option,
         }
     }
 }
 
 fn start_system_setup_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(Camera2dBundle::default());
-    let font_handle = asset_server.load("fonts/FiraSans-Retina.ttf");
-    
-    commands
-        .spawn(NodeBundle {
-            style: Style {
-                size: Size::new(Val::Percent(50.0), Val::Percent(100.0)),
-                align_items: AlignItems::Center,
-                justify_content: JustifyContent::Center,
-                ..default()
-            },
+    let font_handle: bevy::prelude::Handle<Font> = asset_server.load("fonts/FiraSans-Retina.ttf");
+
+    commands.spawn(NodeBundle {
+        style: Style {
+            size: Size::new(Val::Percent(50.0), Val::Percent(100.0)),
+            align_items: AlignItems::Center,
+            justify_content: JustifyContent::Center,
             ..default()
-        })
+        },
+        ..default()
+    });
 }
 
 fn contextualize_world_ui(mut egui_context: ResMut<EguiContext>) {
@@ -96,7 +105,7 @@ fn configure_visuals_system(mut egui_ctx: ResMut<EguiContext>) {
     });
 }
 
-fn configure_ui_state_system(mut ui_state: ResMut<UiState>) {
+fn configure_ui_state_system(mut ui_state: ResMut<DialogState>) {
     ui_state.is_window_open = true;
 }
 
@@ -120,7 +129,7 @@ fn update_ui_scale_factor_system(
     }
 }
 
-fn serve_asset_resource_audio(asset_server: Res<AssetServer>, audio: Res<Audio>) {
+fn serve_asset_resource_audio(asset_server: Res<AssetServer>, audio: Res<bevy_kira_audio::Audio>) {
     audio
         .play(asset_server.load("audio/music/background_elevator_music.flac"))
         .loop_from(0.3)
