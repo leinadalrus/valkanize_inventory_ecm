@@ -14,23 +14,23 @@ struct VisualHandle(pub Handle<Image>);
 
 struct OptionHandle(pub Option<String>);
 
-struct DialogHandler {
+pub struct DialogHandler {
     name: NameHandle,
     visual: VisualHandle,
     option: OptionHandle,
 } // ,,Handler'' is different from ,,handle''
 
 #[derive(Default, Resource)]
-struct DialogState {
+pub struct DialogState {
     label: String,
     value: String,
     texture_handle: Option<egui::TextureHandle>,
     is_window_open: bool,
 }
 
-struct SectionDriver;
-struct InterceptEntity;
-struct InterceptEntityToken;
+pub struct SectionDriver;
+pub struct InterceptEntity;
+pub struct InterceptEntityToken;
 
 pub enum InventoryOptions {
     HeadIndex,
